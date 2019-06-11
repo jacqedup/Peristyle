@@ -1,0 +1,187 @@
+.brand-logo,
+.title {
+  font-family: 'Alegreya SC', serif;
+}
+
+.logo {
+  position: absolute;
+  display: block;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+} 
+
+.sidenav h4 {
+  margin-top: 80px;
+} 
+
+#index-banner {
+  background: url(Images/pillars.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.header {
+  margin-bottom: 0px;
+}
+
+.sub-heading {
+  margin-top: 0px;
+}
+
+.cta {
+  font-weight: 400;
+}
+
+.call {
+  font-weight: 700;
+  animation-delay: 1s;
+  /* animation-duration: 3s; */
+}
+
+.practice {
+  /* margin-top: 75px; */
+  /* margin-bottom: 75px; */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.specialty {
+  position: relative;
+  margin: 20px auto;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 25px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-block {
+  min-height: 300px;
+  padding-top: 75px;
+}
+
+.practice-title {
+  font-family: 'Alegreya', serif;
+}
+
+.specialty-list{
+  font-weight: 500;
+}
+
+.service-area {
+  background: url(Images/nola.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+#about img {
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.contact-name {
+  margin-bottom: 0px;
+}
+
+.telephone,
+.email {
+  display: block;
+  margin-top: 20px;
+}
+
+#map {
+  background-image: url("https://api.mapbox.com/v4/mapbox.emerald/pin-s-marker+285A98(-90.1556493,30.0191587)/-90.1573033,30.006432,13/300x300.png?access_token=pk.eyJ1IjoiaGVyYmVqZCIsImEiOiJjamhqaHgwdjkyaWZtM2RuM3ViejBpcjBoIn0.xGDfpQGI5b3B91MX869f8g");
+  width: 300px;
+  height: 300px;
+  border: 1px solid #c8ab37;
+  margin: 0px auto;  
+  margin-right: 0px;
+}
+
+.footer-copyright {
+  font-size: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .brand-logo {
+    font-size: 1.7rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    
+  }
+
+  .cta {
+    font-size: 1.5rem;
+  }
+
+  /* service-area */
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  #about img {
+    margin-top: 30px;
+  }
+
+  #about h2 {
+    font-size: 2.2rem;
+    margin-top: 10px;
+  }
+
+  #about h5 {
+    font-size: 1.3rem;
+  }
+
+  .contact {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact i {
+    position: relative;
+    left: 40px;
+  }
+
+  #map {
+    width: 275px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .row .col.offset-m1 {
+    margin-left: 15%;
+  }
+
+  /* #custom-offset {
+    padding: 0px 30px 0px 0px;
+  } */
+}
+
+@media only screen and (min-width: 1772px) {
+  .row .col.offset-m1 {
+    margin-left: 15%;
+  }
+
+  .row .col {
+  padding: 0px 30px;
+  }
+
+  .contact-and-map {
+    margin-left: 500px;
+  } 
+}
